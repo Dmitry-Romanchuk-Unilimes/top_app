@@ -20,6 +20,7 @@
 }
 
 .secondLevel {
+    margin-top: 20px;
     margin-bottom: 10px;
     cursor: pointer;
     text-transform: uppercase;
@@ -35,11 +36,22 @@
     margin-top: 15px;
     margin-left: 12px;
     padding-left: 32px;
-
     border-left: 1px solid #dfdfdf;
 }
 
-.secondBlockOpened:last-child {
+.secondLevelTitle {
+    margin-bottom: 10px;
+}
+
+.secondLevelBlock {
+    display: none;
+}
+
+.secondLevelBlockOpened {
+    display: block;
+}
+
+.secondLevelBlockOpened:last-child {
     margin-bottom: 20px;
 }
 
