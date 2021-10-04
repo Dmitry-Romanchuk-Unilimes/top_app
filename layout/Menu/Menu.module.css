@@ -20,7 +20,6 @@
 }
 
 .secondLevel {
-    margin-top: 20px;
     margin-bottom: 10px;
     cursor: pointer;
     text-transform: uppercase;
@@ -44,15 +43,7 @@
 }
 
 .secondLevelBlock {
-    display: none;
-}
-
-.secondLevelBlockOpened {
-    display: block;
-}
-
-.secondLevelBlockOpened:last-child {
-    margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .thirdLevel {
